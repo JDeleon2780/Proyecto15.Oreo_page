@@ -1,4 +1,4 @@
-
+* Estilos globales */
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@ body {
   background-color: #1098f6;
 }
 
-
+/* Estilos del header */
 header {
   display: flex;
   justify-content: space-between;
@@ -22,7 +22,7 @@ header {
 header .logo img {
   max-width: 100%;
   height: auto;
-  max-height: 60px; 
+  max-height: 60px; /* Ajuste el tamaño del logo para que no sea demasiado grande */
 }
 
 .nav ul {
@@ -101,7 +101,6 @@ section .text {
   }
 
   .contentimg img {
-    max-height: 300px; 
+    max-height: 300px; /* Ajustar la altura de la imagen en pantallas pequeñas */
   }
 }
-
